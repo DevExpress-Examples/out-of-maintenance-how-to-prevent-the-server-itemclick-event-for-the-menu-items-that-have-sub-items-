@@ -14,7 +14,7 @@ public partial class _Default : System.Web.UI.Page
     {
 
     }
-    protected void ASPxMenu1_ItemClick(object source, DevExpress.Web.ASPxMenu.MenuItemEventArgs e)
+    protected void ASPxMenu1_ItemClick(object source, DevExpress.Web.MenuItemEventArgs e)
     {
         Label1.Text = "The clicked item: " + e.Item.Text;
     }

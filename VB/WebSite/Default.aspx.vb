@@ -14,7 +14,7 @@ Partial Public Class _Default
 	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 
 	End Sub
-	Protected Sub ASPxMenu1_ItemClick(ByVal source As Object, ByVal e As DevExpress.Web.ASPxMenu.MenuItemEventArgs)
+	Protected Sub ASPxMenu1_ItemClick(ByVal source As Object, ByVal e As DevExpress.Web.MenuItemEventArgs)
 		Label1.Text = "Clicked item: " & e.Item.Text
 	End Sub
 End Class
